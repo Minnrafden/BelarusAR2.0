@@ -1,0 +1,180 @@
+{
+  "regions": [
+    {
+      "id": "minsk_region",
+      "name": "г. Минск",
+      "fullName": "Минская область",
+      "iconName": "icon_minsk",
+      "isCapital": true,
+      "isAvailable": true,
+      "capitalCity": "Минск",
+      "description": "Столица Республики Беларусь — современный мегаполис с богатой историей, уникальной советской архитектурой и старинными кварталами.",
+      "areaKm2": 348,
+      "cities": [
+        {
+          "id": "minsk_city",
+          "name": "Минск",
+          "founded": 1067,
+          "population": 2000000,
+          "description": "Столица Беларуси — динамичный город с более чем 900-летней историей, сочетающий советское наследие и современную архитектуру.",
+          "photoName": "photo_minsk",
+          "attractions": [
+            {
+              "id": "troitskoe",
+              "name": "Троицкое предместье",
+              "description": "Один из немногих уцелевших исторических кварталов Минска. Живописный комплекс двухэтажных домов XIX века на берегу реки Свислочь является символом старого города.",
+              "type": "Архитектура",
+              "century": "XIX в.",
+              "rating": 4.9,
+              "hasARModel": true,
+              "isUNESCO": false,
+              "address": "ул. Троицкая, Минск",
+              "photoName": "photo_troitskoe",
+              "latitude": 53.9045,
+              "longitude": 27.5615
+            },
+            {
+              "id": "victory_square",
+              "name": "Площадь Победы",
+              "description": "Главный военный мемориал страны с Вечным огнём. Монументальный ансамбль создан в честь победы в Великой Отечественной войне.",
+              "type": "Мемориал",
+              "century": "1954",
+              "rating": 4.8,
+              "hasARModel": false,
+              "isUNESCO": false,
+              "address": "пр. Независимости, Минск",
+              "photoName": "photo_victory",
+              "latitude": 53.9089,
+              "longitude": 27.5596
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brest_region",
+      "name": "Брестская область",
+      "fullName": "Брестская область",
+      "iconName": "icon_brest",
+      "isCapital": false,
+      "isAvailable": true,
+      "capitalCity": "Брест",
+      "description": "Западный регион Беларуси с богатой историей и уникальными природными заповедниками.",
+      "areaKm2": 32800,
+      "cities": [
+        {
+          "id": "brest_city",
+          "name": "Брест",
+          "founded": 1019,
+          "population": 340000,
+          "description": "Один из древнейших городов Беларуси на границе с Польшей.",
+          "photoName": "photo_brest",
+          "attractions": [
+            {
+              "id": "brest_fortress",
+              "name": "Брестская крепость",
+              "description": "Героическая крепость-памятник, символ мужества советских солдат в годы Великой Отечественной войны.",
+              "type": "Мемориал",
+              "century": "1836",
+              "rating": 4.9,
+              "hasARModel": true,
+              "isUNESCO": false,
+              "address": "ул. Героев обороны, Брест",
+              "photoName": "photo_fortress",
+              "latitude": 52.0833,
+              "longitude": 23.6564
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grodno_region",
+      "name": "Гродненская область",
+      "fullName": "Гродненская область",
+      "iconName": "icon_grodno",
+      "isCapital": false,
+      "isAvailable": true,
+      "capitalCity": "Гродно",
+      "description": "Регион с богатым культурным наследием и множеством замков.",
+      "areaKm2": 25100,
+      "cities": [
+        {
+          "id": "grodno_city",
+          "name": "Гродно",
+          "founded": 1128,
+          "population": 373000,
+          "description": "Один из красивейших городов Беларуси с богатым историческим наследием.",
+          "photoName": "photo_grodno",
+          "attractions": [
+            {
+              "id": "mir_castle",
+              "name": "Мирский замок",
+              "description": "Один из символов Беларуси, замок XVI века включён в список Всемирного наследия ЮНЕСКО.",
+              "type": "Замок",
+              "century": "XVI в.",
+              "rating": 4.9,
+              "hasARModel": true,
+              "isUNESCO": true,
+              "address": "г. Мир, Гродненская обл.",
+              "photoName": "photo_mir",
+              "latitude": 53.4489,
+              "longitude": 26.4712
+            },
+            {
+              "id": "nesvizh_castle",
+              "name": "Несвижский замок",
+              "description": "Дворцово-замковый комплекс рода Радзивиллов, объект ЮНЕСКО.",
+              "type": "Замок",
+              "century": "1583",
+              "rating": 4.9,
+              "hasARModel": true,
+              "isUNESCO": true,
+              "address": "г. Несвиж, Минская обл.",
+              "photoName": "photo_nesvizh",
+              "latitude": 53.2189,
+              "longitude": 26.6883
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vitebsk_region",
+      "name": "Витебская область",
+      "fullName": "Витебская область",
+      "iconName": "icon_vitebsk",
+      "isCapital": false,
+      "isAvailable": true,
+      "capitalCity": "Витебск",
+      "description": "Культурная столица Беларуси, родина Марка Шагала.",
+      "areaKm2": 40100,
+      "cities": [
+        {
+          "id": "vitebsk_city",
+          "name": "Витебск",
+          "founded": 974,
+          "population": 360000,
+          "description": "Один из древнейших городов Беларуси, культурная столица страны.",
+          "photoName": "photo_vitebsk",
+          "attractions": [
+            {
+              "id": "chagall_house",
+              "name": "Дом Марка Шагала",
+              "description": "Мемориальный дом-музей великого художника XX века.",
+              "type": "Музей",
+              "century": "XIX в.",
+              "rating": 4.7,
+              "hasARModel": false,
+              "isUNESCO": false,
+              "address": "ул. Покровская 11, Витебск",
+              "photoName": "photo_chagall",
+              "latitude": 55.1904,
+              "longitude": 30.1986
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
