@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fddac04f56005d041b07695e56afb4a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - landmarksPanel: {instanceID: 0}
+  - landmarksContent: {instanceID: 0}
+  - backToMapButton: {instanceID: 0}
+  - backToMenuButton: {instanceID: 0}
+  - landmarkButtonPrefab: {instanceID: 0}
+  - cityTitleText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
